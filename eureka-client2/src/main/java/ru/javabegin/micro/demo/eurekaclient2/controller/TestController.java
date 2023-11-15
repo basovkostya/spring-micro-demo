@@ -1,14 +1,14 @@
-package ru.javabegin.micro.demo.eurekaclient.controller;
+package ru.javabegin.micro.demo.eurekaclient2.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/main")
+@RequestMapping("/new")
 public class TestController {
-    @GetMapping("/test")
-    public String test(){
-        return "Hello!";
+    @GetMapping("/name")
+    public String name(){
+        return "Hello Kostya!";
     }
 }

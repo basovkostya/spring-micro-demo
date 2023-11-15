@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -14,6 +15,11 @@
               <build path="$PROJECT_DIR$/eureka-client" name="eureka-client">
                 <projects>
                   <project path="$PROJECT_DIR$/eureka-client" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/eureka-client2" name="eureka-client2">
+                <projects>
+                  <project path="$PROJECT_DIR$/eureka-client2" />
                 </projects>
               </build>
               <build path="$PROJECT_DIR$/api-gateway" name="api-gateway">
@@ -31,6 +37,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/api-gateway" />
             <option value="$PROJECT_DIR$/eureka-client" />
+            <option value="$PROJECT_DIR$/eureka-client2" />
             <option value="$PROJECT_DIR$/eureka-server" />
           </set>
         </option>
